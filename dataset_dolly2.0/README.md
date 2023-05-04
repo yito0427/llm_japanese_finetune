@@ -1,4 +1,8 @@
-たまに以下のようなエラー（The security token included in the request is expired）が発生します。
+EC2での実施では、エラーは発生しません。
+
+$ python translate.py
+
+Cloud9の場合、たまに以下のようなエラー（The security token included in the request is expired）が発生します。
 出力完了したつぎから、--row_startを指定して再実行してください。
 2100 - 2200 行くらい処理すると、エラーが発生します。
 
